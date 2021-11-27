@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+header {
+    height: 175px;
+    width: 100%;
+    background-color: #a52a2a;
+    }
+
+.bg-g {
+     
+        height: 175px;
+        width: 175px;
+        float: left;
+        background-image: url(../images/Background/TPirateGif.gif);
+        background-size: 100%;
+        background-color: #a52a2a;
+     
+    }
+
+
+    #landing-title {
+        padding: 50px;
+        height: 100%;
+        width: 100%;
+        margin:50%;
+        text-align: center;
+        font-size: 2em;
+        font-family: Verdana;
+    }
