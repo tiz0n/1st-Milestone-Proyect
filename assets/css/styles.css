@@ -9,15 +9,19 @@ header {
     width: 100%;
     background-color: #a52a2a;
     }
-
+  header h1 {
+      text-align: center;
+      padding-top: 60px;
+  }
 .bg-g {
      
         height: 175px;
         width: 175px;
         float: left;
         background-image: url(../images/Background/TPirateGif.gif);
+        background-repeat: no-repeat;
         background-size: 100%;
-        background-color: #a52a2a;
+        ;
      
     }
 
@@ -30,4 +34,25 @@ header {
         text-align: center;
         font-size: 2em;
         font-family: Verdana;
+    }
+    nav {
+        float:right;
+        list-style-type: none;
+        display:inline-block;
+    }
+    ul {
+        list-style-type: none;
+    }
+    #Bg-Main-1st-section {
+        background-image: url(../images/Background/BgMain.png);
+        text-align: center;
+        /*height:60%;*/
+        width:auto;
+    }
+    #Bg-Main-1st-section > h1 {
+         margin: 20px;
+        
+    }
+    .wrapper-1st-section p{
+        margin: 80px;
     }
