@@ -10,7 +10,7 @@
       font-style: normal;
       font-weight: normal;
   }
-  @@font-face {
+  @font-face {
     font-family: 'rapscallionregular';
     src: url('RAPSCALL-webfont.eot');
     src: url('RAPSCALL-webfont.eot?#iefix') format('embedded-opentype'),
@@ -55,6 +55,7 @@ header {
         padding:10px;
         display:flex;
         justify-content:space-around;
+        flex-wrap: wrap;
         line-height: 120px;
         text-decoration: None;
         font-family:'Monospace';
@@ -63,6 +64,7 @@ header {
          .menu-link{
          display:flex;
          justify-content:space-evenly;
+         flex-wrap: wrap;
          line-height:120px;
          /*margin-left: 50px;*/
          color:whitesmoke;
@@ -110,4 +112,25 @@ header {
         font-family:'rapscallionregular';
         text-align:center;
         padding:20px;
+    }
+    footer{
+        display:flex;
+        justify-content: space-evenly;
+
+    }
+
+    #slide-Cards{
+        background-image: url(../images/Background/LandingIntro.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width:100%;
+        height:100vh;
+
+    }
+    #form-slide{
+        background-image: url(../images/Background/SubscribeForm.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width:100%;
+        height:100vh;
     }
