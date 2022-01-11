@@ -2,52 +2,57 @@
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
 }
 
 header {
-    height: 175px;
+    height: 120px;
     width: 100%;
     background-color: #a52a2a;
+    position:fixed;
+    top:0;
+    left:0;
     }
-  header h1 {
-      text-align: center;
-      padding-top: 60px;
-  }
+   
+  
 .bg-g {
-     
-        height: 175px;
-        width: 175px;
+        padding:5px;
+        height: 120px;
+        width: 100px;
         float: left;
-        background-image: url(../images/Background/TPirateGif.gif);
+        background-image: url(../images/Background/BgTitle.gif);
         background-repeat: no-repeat;
         background-size: 100%;
-        ;
-     
-    }
-
-
-    #landing-title {
-        padding: 50px;
-        height: 100%;
-        width: 100%;
-        margin:50%;
-        text-align: center;
-        font-size: 2em;
-        font-family: Verdana;
+        
     }
     nav {
-        float:right;
-        list-style-type: none;
-        display:inline-block;
+        padding:10px;
+        display:flex;
+        justify-content: space-between;
+        line-height: 120px;
+        
     }
     ul {
         list-style-type: none;
     }
-    #Bg-Main-1st-section {
-        background-image: url(../images/Background/BgMain.png);
-        text-align: center;
+    li{
+        flex-direction: row;
+    }
+    .Fullvh-slide{
+        background-image: url(../images/Background/LandingIntro.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width:100%;
+        height:80vh;
+    }
+
+    .Fullvh-slide--second{
+        background-image: url(../images/Background/SlidesPosts.png);
+        background-repeat: no-repeat;
+        background-size:Cover;
         /*height:60%;*/
-        width:auto;
+        width:100%;
+        height:100vh;
     }
     #Bg-Main-1st-section > h1 {
          margin: 20px;
