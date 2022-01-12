@@ -30,8 +30,7 @@ Run out of time !!
 
 ## Deployment
 This site was built using [GitHub Pages] (https://tiz0n.github.io/Sails-Pirates//) 
-The live link can be found here (https://tiz0n.github.io/Sails-Pirates/)
-
+The live link can be found here (https://tiz0n.github.io/Sails-Pirates//)
 ## Content
 
 Content has been written based on Wikipedia and World History Enciclopedia website.
