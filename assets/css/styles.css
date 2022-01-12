@@ -83,6 +83,7 @@ header {
     }
     li{
         flex-direction: row;
+        list-style-type:None;
     }
     .Fullvh-slide{
         background-image: url(../images/Background/LandingIntro.png);
