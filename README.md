@@ -11,5 +11,9 @@ Sails and Pirates is a proyect intentded to be a tiny blog to document about mar
 
 ![navigation bar](https://github.com/tiz0n/Sails-Pirates/blob/main/assets/images/Proyect%20Images/NavBar.png)
 
+## Wrapper-1st-section-intro
 
+This is intended to give content to the main site as sections that will give the user notions of what the site covers. Each section is intended to add new information unrelated to the previous one but in context to the site.
+
+![Section]()
 
